@@ -676,7 +676,16 @@ morphology <em>can</em> and <em>has been</em> modeled in other subfields of neur
 <div class="paragraph">
 <p>Electrophysiology is slow and tedious. mRNA degradation is also a problem. This
 means: Data is hard to come by and recording time must be kept to a minimum.
-Classical experiments using pharmacology (ion channel blockers) and</p>
+Classical experiments using pharmacology (ion channel blockers) and current
+stimulus-response take too long&#8212;&#8203;we want high quality mRNA and more data points
+if possible.</p>
+</div>
+<div class="paragraph">
+<p>Originally the plan was to use massive (as in many) feature extraction or feed
+raw data through a deep learning model (e.g. LSTM-FCN). The problem there is
+more data is needed, and as far as I can tell, most deep learning models aren&#8217;t
+optimized for high frequency data (we record at 20kHz; downsampling data below
+8kHz begins to lose information).</p>
 </div>
 </div>
 </div>
@@ -725,7 +734,7 @@ candidates that are not included in the model.</p>
 <div id="footer">
 <div id="footer-text">
 Version 0.1<br>
-Last updated 2020-01-24 20:29:23 +0100
+Last updated 2020-01-24 20:43:25 +0100
 </div>
 </div>
 </body>
