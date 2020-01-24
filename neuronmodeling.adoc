@@ -93,9 +93,8 @@ The pre-Bötzinger complex can also modulate the _type_ of inspiratory effort,
 producing longer lasting sigh-like activity, or more rapid gasping. 
 
 The network is a heterogenous mixture of neuronal
-populations,  distinct classes/suites of ionic membrane
-currents, and that those properties affect their individual biophysical
-behavior. It is presumed that the net effect of these population-specific
+populations, each with their own distinct classes/suites of ionic membrane
+currents. It is presumed that the net effect of these population-specific
 membrane properties is an *emergent network rhythmicity*, sometimes called a
 _group pacemaker_. 
 
@@ -109,7 +108,7 @@ image::prebotcslice.png[]
 
 ****
 Preface: Commentary on modeling is specific to how things are _in this
-particularly brain region_. There's a lot more to unpack about the state of the art
+particular brain region_. There's a lot more to unpack about the state of the art
 more broadly in computational neuroscience.
 ****
 
@@ -164,6 +163,7 @@ optimized for high frequency data (we record at 20kHz; downsampling data below
 == Structure of the data
 
 What types of information are available to us?
+
 * Voltage/current of individual neurons
 * Net motor activity (reflects total network output)
 * Morphology of individual neurons
